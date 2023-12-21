@@ -100,7 +100,7 @@ function desktop.add_single_icon(args, label, icon, onclick)
 
         icon = wibox.widget {
             image = icon,
-            resize = false,
+            resize = true,
             widget = wibox.widget.imagebox
         }
 
